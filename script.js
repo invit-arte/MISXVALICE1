@@ -16,7 +16,7 @@ let opened = false;
   DATOS DE LA INVITACIÓN
    ===================================================== */
 
-const CANTIDAD_PERSONAS = 2;
+const CANTIDAD_PERSONAS = 1;
 
 
 /* Mostrar datos en la portada */
@@ -25,7 +25,7 @@ document.getElementById("guestFamily").textContent =
   "Invitación especial";
 
 document.getElementById("guestPasses").textContent =
-  `Para ${CANTIDAD_PERSONAS} personas`;
+  `Para ${CANTIDAD_PERSONAS} persona`;
 
 document.getElementById("rsvpGuestPasses").textContent =
   `${CANTIDAD_PERSONAS} personas`;
